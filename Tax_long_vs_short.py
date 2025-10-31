@@ -71,7 +71,6 @@ def compare_tax_strategies_grid(
     plt.xlabel('持有年数')
     plt.ylabel('短线每年交易次数')
     plt.title(f'短线收益率 (长线收益率={g_long}, 短线税率={t_short}, 长线税率={t_long})')
-    plt.legend()
     plt.grid(True)
     plt.show()
 
